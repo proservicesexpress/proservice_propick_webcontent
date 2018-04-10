@@ -1,0 +1,96 @@
+{
+    "data": {
+        "Propick": {
+            "Info": {
+                "Name": "Info",
+                "ComapnyName": "Propick Co., Ltd.",
+                "Detail": [
+                    "NEW APPLICATION OF PROSERVICE",
+                    "To add a service to the condition in the streets of Bangkok and Metropolitan area"
+                ]
+            },
+            "HowGood": {
+                "Name": "How Good",
+                "Detail": [
+                    "Fast",
+                    "Security",
+                    "Services",
+                    "Job"
+                ]
+            },
+            "HowWork": {
+                "Name": "How Work",
+                "Detail": []
+            },
+            "Service": {
+                "Name": "How Services",
+                "Detail": [
+                    "Purchase and Send",
+                    "Billing and Cheque",
+                    "Delivery"
+                ]
+            },
+            "AdditionalServices": {
+                "Name": "Type Services",
+                "Detail": [
+                    {
+                        "TypeIcon": "fa fa-shopping-cart",
+                        "TypeName": "Purchase",
+                        "TypePrice": 40,
+                        "TypeDetail": ""
+                    },
+                    {
+                        "TypeIcon": "fa fa-cutlery",
+                        "TypeName": "Food Box on Car",
+                        "TypePrice": 0,
+                        "TypeDetail": ""
+                    },
+                    {
+                        "TypeIcon": "fa fa-file-text-o",
+                        "TypeName": "Billing",
+                        "TypePrice": 50,
+                        "TypeDetail": ""
+                    },
+                    {
+                        "TypeIcon": "fa fa-cube",
+                        "TypeName": "Shipping",
+                        "TypePrice": 50,
+                        "TypeDetail": ""
+                    },
+                    {
+                        "TypeIcon": "fa fa-repeat",
+                        "TypeName": "Cash on delivery",
+                        "TypePrice": 50,
+                        "TypeDetail": ""
+                    }
+                ]
+            },
+            "HowTo": {
+                "Name": "How To",
+                "Detail": [
+                    "Login or Register",
+                    "Mark start and destination location",
+                    "Choose service",
+                    "Confirm"
+                ]
+            },
+            "CalulateBasic": {
+                "Name": "",
+                "Detail": ""
+            },
+            "Contact": {
+                "Name": "Pro Serivce Co., Ltd.",
+                "Detail": {
+                    "Address": "121/77 Ramindra 40-8, Nualjun, Beunggum Bangkok 10230",
+                    "Tel": "02-949-9774-5, 02-519-2971, 087-972-2648",
+                    "Email": "info@proserviceplus.com",
+                    "FollowUs": [
+                        "fa fa-facebook",
+                        "fa fa-twitter",
+                        "fa fa-google-plus"
+                    ]
+                }
+            }
+        }
+    }
+}

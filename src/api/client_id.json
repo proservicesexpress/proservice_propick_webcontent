@@ -1,0 +1,10 @@
+{
+    "web":{
+        "client_id":"1034367757404-lvbn1vlsce8h00305cvd3oj7q74dnd74.apps.googleusercontent.com",
+        "project_id":"propick-1520351781553",
+        "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+        "token_uri":"https://accounts.google.com/o/oauth2/token",
+        "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret":"Mt9vEBgEwgZVYLuxEN6VmlX2"
+        }
+    }

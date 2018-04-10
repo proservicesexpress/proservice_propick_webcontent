@@ -1,0 +1,56 @@
+.navbar {
+    padding: 0;
+}
+.navbar.navbar-default .navbar-toggle
+{
+    margin-top: 10px;
+}
+#proservice-menu .navbar.navbar-default{
+    background-color: #c10000;
+}
+
+#propick .navbar.navbar-default{
+    /* background-color: #009BFF; */
+    background: #009BFF;
+    /* background: #324158; */
+}
+.navbar-default .navbar-nav li a{
+    color: white;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+    margin: 0;
+}
+.navbar-nav li a {
+    font-weight: 300;
+    font-size: 18px;
+   
+}
+
+.active-link a {
+    background: transparent;
+    color: rgb(163, 163, 163) !important;
+}
+
+.active-link .navbar-default .navbar-nav li a {
+    background: transparent;
+    color: rgb(163, 163, 163) !important;
+} 
+
+.selected-proservice {
+    color: #c10000 !important;
+    font-weight: 800;
+    background: 'transparent' !important;
+}
+
+.selected-propick {
+    color: #40b4ff !important;
+    font-weight: 800;
+    background: 'transparent' !important;
+}

@@ -1,0 +1,102 @@
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+.container {
+  padding: 1em;
+}
+
+.timeline {
+  position: relative;
+  overflow: auto;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 5px;
+  background: #ffffff;
+  left: 0;
+}
+
+#aboutus .timeline h2 {
+  max-width: 6em;
+  margin: 0 auto 1em;
+  text-align: center;
+  position: relative;
+  clear: both;
+}
+
+.timeline li {
+  background: #ffffff;
+  padding: 1em;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.timeline li p {
+  text-align: left
+}
+
+.timeline li:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 1em solid #ffffff;
+  border-left: 1em solid transparent;
+  position: absolute;
+  left: -1em;
+  top: 0;
+}
+
+.timeline h3 {
+  margin-top: 0;
+}
+
+.timeline time {
+  font-style: italic;
+}
+
+.timeline .section-header h2 {
+  /* background-color: #ffffff00; */
+  padding: 0;
+}
+
+@media screen and (min-width: 40em) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline ul {
+    padding-left: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .timeline li {
+    width: 42%;
+  }
+  .timeline li:nth-child(even) {
+    float: right;
+    margin-top: 2em;
+  }
+  .timeline li:nth-child(odd) {
+    float: left;
+  }
+  .timeline li:nth-child(odd):before {
+    border-top: 1em solid #ffffff;
+    border-right: 1em solid transparent;
+    right: -1em;
+    left: auto;
+  }
+  .timeline li:nth-of-type(2n+1) {
+    clear: both;
+  }
+}
+
+.timeline-padding-body {
+  padding-bottom: 50px
+}
